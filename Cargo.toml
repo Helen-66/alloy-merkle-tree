@@ -15,8 +15,9 @@ edition = "2021"
 hashbrown = "0.14.3"
 anyhow = "1.0"
 alloy-dyn-abi = { version = "0.6.2", default-features = false }
-alloy-primitives = { git = "https://github.com/succinctlabs/alloy-core-private.git", default-features = false }
+#alloy-primitives = { git = "https://github.com/succinctlabs/alloy-core-private.git", default-features = false }
+alloy-primitives ="0.8.8"
 tiny-keccak = { version = "2.0", features = ["keccak"] }
 
-[patch.crates-io]
-tiny-keccak = { git = "https://github.com/succinctlabs/tiny-keccak-private.git", branch = "chris/test" }
+#[patch.crates-io]
+#tiny-keccak = { git = "https://github.com/succinctlabs/tiny-keccak-private.git", branch = "chris/test" }
